@@ -58,7 +58,8 @@ List = [1, 2, 'Geeks', 4, 'For', 6, 'Geeks']
 #     print(List[uidx])
 #     uidx = uidx -1
 
-print(List)
-# print(List[::-1])
+# print(List)
+# # print(List[::-1])
 
-print(List[2::2])
+# print(List[2::2])
+
