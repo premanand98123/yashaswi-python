@@ -80,3 +80,80 @@ find palindrome no
 # a = 10
 # print(a//2)
 
+'''count digit'''
+
+# def count_digits(num,cnt):
+   
+#     while(num!=0):
+#       cnt = cnt +1
+#       num = num//10
+
+#     return cnt
+
+
+# n = int(input("Enter a number"))
+# # print(count_digits(n,0))
+
+# str = str(n)
+# print(len(str))
+
+
+'''
+reverse a number 
+'''
+
+# def function_to_reverse(num,dummy):
+    
+#     while(num!=0):
+#         n1 = num%10
+#         dummy = dummy*10 + n1
+#         num = num//10
+    
+#     return dummy
+
+# # n = 583
+
+# n = int(input("Enter a number"))
+# ans = function_to_reverse(n,0)
+# print(ans)
+
+'''
+pattern printing
+###
+###
+###
+
+'''
+
+# for i in range(0,5):
+#     for j in range(0,5):
+#         print("#",end=" ")
+#     print()
+
+
+'''
+pattern printing
+*
+**
+***
+****
+*****
+******
+'''
+
+# for i in range(0,10):
+#     for j in range(0,i+1):
+#         print("*",end=" ")
+#     print()
+
+
+'''
+pattern printing
+*******
+******
+*****
+****
+***
+**
+*
+'''
