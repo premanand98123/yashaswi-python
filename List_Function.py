@@ -157,3 +157,66 @@ pattern printing
 **
 *
 '''
+
+# n = 10 ; n1 = 15
+'''HCF'''
+
+# n1 = int(input("1st number "))
+# n2 = int(input("2nd number "))
+# min = min(n1,n2)
+
+# ans = 0
+
+# for i in range(1,min+1):
+#     if(n1%i== 0 and n2%i==0 ):
+#         ans = i
+
+
+# print(ans)
+
+'''Armstrong Number'''
+
+# Input:153 
+# Output: Yes, it is an Armstrong Number
+# Explanation: 1^3 + 5^3 + 3^3 = 153
+
+
+# Step 1: count digit
+# Step 2: find individual digit and do stuffs on the digit
+# Step 3: check whether it is true or not
+
+# def count_digits(num,cnt):
+   
+#     while(num!=0):
+#       cnt = cnt +1
+#       num = num//10
+
+#     return cnt
+
+# def Arm_Check(num,cnt,num1):
+#     while(num!=0):
+#       val1 = num%10
+#       num1 = num1 + (pow(val1,cnt))
+#       num = num//10
+    
+#     return num1
+
+# n = int(input("Enter the digit to find armstrong "))
+# cnt = count_digits(n,0)
+# # print(cnt)
+# # print(n)
+
+# num = Arm_Check(n,cnt,0)
+
+# if(num == n):
+#    print("yes")
+# else:
+#    print("no")
+
+'''check the divisor'''
+# n = int(input("Enter the number "))
+
+# for i in range(1,n+1):
+#     if(n%i==0):
+#         print(i)
+
